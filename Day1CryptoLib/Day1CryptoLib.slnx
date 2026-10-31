@@ -3,7 +3,7 @@
     <Platform Name="x64" />
     <Platform Name="x86" />
   </Configurations>
-  <Project Path="Day1CryptoLib.vcxproj">
+  <Project Path="Day1CryptoLib.vcxproj" Id="40bcaa07-629d-484b-8a01-cd059f8335bc">
     <Platform Solution="Debug|x64" Project="Win32" />
   </Project>
 </Solution>

@@ -1,4 +1,4 @@
-#include <openssl/sha.h>	// you may also use the whole path with quotes ""
+#include <openssl/sha.h>	// you may also use the whole path with quotes "" instead of modifing the sln's properties
 #include <stdio.h>
 
 #define INPUT_BLOCK_LENGTH 6
@@ -11,7 +11,7 @@ int main()
 								0xff, 0xfe, 0xfd, 0xfc, 0x00, 0x10, 0x00, 0x02 };
 
 	SHA_CTX ctx;
-	SHA1_Init(&ctx);	// initialization of the SHA_CTX structure (definde by opelssl crypto lib)
+	SHA1_Init(&ctx);	// initialization of the SHA_CTX structure (defined by opelssl crypto lib)
 
 	unsigned short int remaining_bytes = sizeof(message);	// message is a byte array, so this is the total lenght sent to SHA1_Update
 	unsigned short int current_offeset = 0;
