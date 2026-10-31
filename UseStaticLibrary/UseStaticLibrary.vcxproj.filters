@@ -15,12 +15,12 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\res\Libraries_VS\Static\UseStaticLibSol\UseStaticLibProj\ex21.cpp">
+    <ClCompile Include="ex21.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\res\Libraries_VS\Static\UseStaticLibSol\UseStaticLibProj\ex20.hpp">
+    <ClInclude Include="ex20.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

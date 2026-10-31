@@ -140,10 +140,10 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\res\Libraries_VS\Dynamic\UseDynamicLibSol\UseDynamicLibProj\ex23.cpp" />
+    <ClCompile Include="ex23.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\res\Libraries_VS\Dynamic\UseDynamicLibSol\UseDynamicLibProj\ex23.hpp" />
+    <ClInclude Include="ex23.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

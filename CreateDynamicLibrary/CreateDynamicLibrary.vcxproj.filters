@@ -15,12 +15,12 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\res\Libraries_VS\Dynamic\CreateDynamicLibSol\CreateDynamicLibProj\ex22.cpp">
+    <ClCompile Include="ex22.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\res\Libraries_VS\Dynamic\CreateDynamicLibSol\CreateDynamicLibProj\ex22.hpp">
+    <ClInclude Include="ex22.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -139,10 +139,10 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\res\Libraries_VS\Static\UseStaticLibSol\UseStaticLibProj\ex21.cpp" />
+    <ClCompile Include="ex21.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\res\Libraries_VS\Static\UseStaticLibSol\UseStaticLibProj\ex20.hpp" />
+    <ClInclude Include="ex20.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CreateStaticLibrary\CreateStaticLibrary.vcxproj">
