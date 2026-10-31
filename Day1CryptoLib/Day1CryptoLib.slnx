@@ -1,0 +1,9 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Day1CryptoLib.vcxproj">
+    <Platform Solution="Debug|x64" Project="Win32" />
+  </Project>
+</Solution>
