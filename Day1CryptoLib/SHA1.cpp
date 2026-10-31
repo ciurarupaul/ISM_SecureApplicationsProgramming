@@ -3,6 +3,15 @@
 
 #define INPUT_BLOCK_LENGTH 6
 
+/*
+	--- ensure a successful build of the project
+	1. Add include folder to Project properties/ C/C++ /General/Additional Include Directories
+	2. Add the path for the openssl-bundle/lib/libcrypto.lib, including the name of the file into Project Properties/Linkedr/Input/Additional Dependencies
+
+	--- ensure a successful run of the openssl-bundle application
+	3. Place the .dll file ("openssl-bundle/bin/libcrypto-1_1.dll") into the same folder the .exe file was generated into
+*/
+
 int main() 
 {
 	unsigned char message[] = { 0xff, 0xfe, 0xfd, 0xfc, 0x00, 0x10, 0x00, 0x02, 0x3e,
