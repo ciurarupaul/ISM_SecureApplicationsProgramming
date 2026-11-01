@@ -1,0 +1,9 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="EllipticCurves.vcxproj" Id="fa84b3bb-aa51-4d2b-afda-2845159a0f2a">
+    <Platform Solution="Debug|x64" Project="Win32" />
+  </Project>
+</Solution>
