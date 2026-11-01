@@ -142,8 +142,10 @@
     </Manifest>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="AES-ECB_enc.cpp" />
+    <ClCompile Include="AES-CBC_dec.cpp" />
+    <ClCompile Include="AES-CBC_enc.cpp" />
     <ClCompile Include="AES-ECB_dec.cpp" />
+    <ClCompile Include="AES-ECB_enc.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -15,10 +15,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="AES-ECB_enc.cpp">
+    <ClCompile Include="AES-CBC_dec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AES-CBC_enc.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="AES-ECB_dec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AES-ECB_enc.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
