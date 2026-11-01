@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Symmetric.vcxproj" Id="d6dd11cc-266b-427e-ab04-4fb9baa8b5e1" />
+</Solution>
