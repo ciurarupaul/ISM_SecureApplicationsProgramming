@@ -1,4 +1,4 @@
-package ro.ism.sap.java;
+package ro.ism.sap.java.day01;
 
 // ------------------------------------------
 //   Linear-Feedback Shift Register - LFSR
