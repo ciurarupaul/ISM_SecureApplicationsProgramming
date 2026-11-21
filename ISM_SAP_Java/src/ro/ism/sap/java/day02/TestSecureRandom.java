@@ -1,6 +1,6 @@
 package ro.ism.sap.java.day02;
 
-import ro.ism.sap.java.utils.Utiliy;
+import ro.ism.sap.java.utils.Utility;
 
 import java.security.NoSuchAlgorithmException;
 import java.security.SecureRandom;
@@ -31,11 +31,11 @@ public class TestSecureRandom {
     public static void main(String[] args) throws NoSuchAlgorithmException {
         // use the PRNG to generate a DES key - 64 bits/8B
         byte[] desKey = getRandomValue(8);
-        System.out.println("DES random key: " + Utiliy.getHexString(desKey));
+        System.out.println("DES random key: " + Utility.getHexString(desKey));
 
         // test with seed
         String seedSecret = "ismsecret";
         byte[] authKey = getRandomValueWithSeed(8, seedSecret.getBytes());
-        System.out.println("DES random key: " + Utiliy.getHexString(authKey));
+        System.out.println("DES random key: " + Utility.getHexString(authKey));
     }
 }

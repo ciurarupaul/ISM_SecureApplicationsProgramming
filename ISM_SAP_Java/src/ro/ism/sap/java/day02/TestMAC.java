@@ -1,6 +1,6 @@
 package ro.ism.sap.java.day02;
 
-import ro.ism.sap.java.utils.Utiliy;
+import ro.ism.sap.java.utils.Utility;
 
 import javax.crypto.Mac;
 import javax.crypto.SecretKey;
@@ -48,9 +48,9 @@ public class TestMAC {
         String message = "The SAP simultation will be next weekend";
         String key = "ismtopsecret";
         byte[] hmacTag = getHashMAC(message, key);
-        System.out.println("MAC tag: " + Utiliy.getHexString(hmacTag));
+        System.out.println("MAC tag: " + Utility.getHexString(hmacTag));
 
         byte[] fileMacTag = getFileHashMAC("Files\\MyData.bin", key);
-        System.out.println("File MAC: " + Utiliy.getHexString(fileMacTag));
+        System.out.println("File MAC: " + Utility.getHexString(fileMacTag));
     }
 }

@@ -1,6 +1,6 @@
 package ro.ism.sap.java.day02;
 
-import ro.ism.sap.java.utils.Utiliy;
+import ro.ism.sap.java.utils.Utility;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -41,9 +41,9 @@ public class TestMessageDigest {
     public static void main (String[] args) throws NoSuchAlgorithmException, IOException {
         String password = "12345678";
         byte[] passHash = getHash(password);
-        System.out.println("SHA-1 hash: " + Utiliy.getHexString(passHash));
+        System.out.println("SHA-1 hash: " + Utility.getHexString(passHash));
 
         byte[] md5FileHash = getFileHash("Files\\MyData.bin");
-        System.out.println("MD5 file hash: " + Utiliy.getHexString(md5FileHash));
+        System.out.println("MD5 file hash: " + Utility.getHexString(md5FileHash));
     }
 }
